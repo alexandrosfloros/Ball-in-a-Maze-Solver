@@ -98,12 +98,12 @@ class Algorithm:
 
     def run(self):
 
-        # coordinates of the next node
+        # co-ordinates of the next node
 
         self.ball.next_node = self.nodes[self.ball.progress]
         xn, yn = self.ball.next_node
 
-        # coordinates of the ball
+        # co-ordinates of the ball
 
         xb, yb = self.ball.position
 
