@@ -18,12 +18,12 @@ The system consists of the following components:
 
 This simulation was a means of testing the control algorithm and improving it whilst the rest of the system components had not yet been set up or complete. This gave me a lot of freedom in experimenting with new features and improvements as it allowed me to simulate the entire system's behaviour with artificial inputs and outputs from the missing interfaces, as well as a visual representation of the puzzle.
 
-# How to use
+# How to Use
 
 ## Execution
 
 The file used to run the project is ``testbench.py``.
 
-## Defining the topology
+## Defining the Topology
 
 The discrete solution path consisting of nodes as well as the holes in the puzzle can be specified as Cartesian co-ordinates in ``testbench.py`` via the respective lists.
