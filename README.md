@@ -1,6 +1,6 @@
 # Overview
 
-This is a simulation of an autonomous ball-in-a-maze puzzle solution algorithm, designed as part of an overall system, using a combination of software and hardware. The system aims to sucessfully solve the puzzle by tilting the board and hence moving the ball through the maze, whilst avoiding any obstacles.
+This is a simulation of an autonomous ball-in-a-maze puzzle solution algorithm, designed as part of an overall system, using a combination of software and hardware. The system aims to sucessfully solve the puzzle by tilting the board and, hence, moving the ball through the maze, whilst avoiding any obstacles.
 
 The system consists of the following components:
 
@@ -16,7 +16,7 @@ The system consists of the following components:
 
 # Motivation
 
-This simulation was a means of testing the control algorithm and improving it whilst the rest of the system components had not yet been set up or complete. This gave me a lot of freedom in experimenting with new features and improvements as it allowed me to simulate the overall system's behaviour using artificial inputs and outputs from the missing interfaces as well as a visual representation of the puzzle.
+This simulation was a means of testing the control algorithm and improving it whilst the rest of the system components had not yet been set up or complete. This gave me a lot of freedom in experimenting with new features and improvements as it allowed me to simulate the overall system's behaviour using artificial inputs and outputs from the missing interfaces, as well as a visual representation of the puzzle.
 
 # How to Use
 
