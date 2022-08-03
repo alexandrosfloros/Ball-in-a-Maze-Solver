@@ -26,4 +26,4 @@ The file used to run the project is ``testbench.py``.
 
 ## Defining the Topology
 
-The discrete solution path consisting of nodes as well as the holes in the puzzle can be specified as Cartesian co-ordinates in ``testbench.py`` via the respective lists.
+The discrete solution path consisting of nodes, as well as the holes in the puzzle, can be specified as Cartesian co-ordinates in ``testbench.py`` via the respective lists.
