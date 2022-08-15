@@ -14,10 +14,6 @@ The system consists of the following components:
     <img src="https://github.com/alexandrosfloros/Rolling-Ball-Control/blob/main/system_flowchart.png">
 </p>
 
-# Motivation
-
-This simulation was a means of testing the control algorithm and improving it whilst the rest of the system components had not yet been set up or complete. This gave me a lot of freedom in experimenting with new features and improvements as it allowed me to simulate the overall system's behaviour using artificial inputs and outputs from the missing interfaces.
-
 # How to Use
 
 ## Execution
