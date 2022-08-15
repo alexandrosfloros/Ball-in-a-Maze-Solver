@@ -1,6 +1,6 @@
 # Overview
 
-This is a simulation of an autonomous ball-in-a-maze puzzle solution algorithm, designed as part of an overall system, using a combination of software and hardware. The system aims to sucessfully solve the puzzle by tilting the board and, hence, moving the ball through the maze, whilst avoiding any obstacles.
+This is a simulation of an autonomous ball-in-a-maze puzzle solution algorithm, designed as part of a complete system using a combination of software and hardware. The system aims to sucessfully solve the puzzle by tilting the board and, hence, moving the ball through the maze, whilst avoiding any obstacles.
 
 The system consists of the following components:
 
