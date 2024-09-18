@@ -5,18 +5,13 @@ from control import *
 
 
 def animate_model(model):
-    fig = plt.figure()
+    control = Algorithm(model)
+
+    fig = plt.figure(num="Simulation")
     ax = fig.add_axes([0, 0, 1, 1])
 
-    # initialising algorithm
-
     def init():
-        global control
-        control = Algorithm(model)
-
         return model.init_path(ax)
-
-    # updating algorithm in every frame
 
     def update(frame_number):
         control.ball.position[0] += control.ball.velocity[0]
@@ -33,6 +28,12 @@ def animate_model(model):
         return model.update_ball(ax)
 
     animation = FuncAnimation(
-        fig, update, init_func=init, blit=True, cache_frame_data=False, interval=10
+        fig=fig,
+        func=update,
+        init_func=init,
+        blit=True,
+        cache_frame_data=False,
+        interval=10,
     )
+
     plt.show()

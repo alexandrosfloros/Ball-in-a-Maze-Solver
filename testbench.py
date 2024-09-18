@@ -1,8 +1,6 @@
 from simulation import *
 from graphics import *
 
-# initialising path nodes
-
 nodes = [
     [16.0, 21.5],
     [5.50, 21.5],
@@ -40,8 +38,6 @@ nodes = [
     [10.5, 1.00],
 ]
 
-# initialising holes
-
 holes = [
     [3.00, 18.3],
     [8.20, 15.7],
@@ -62,15 +58,8 @@ holes = [
 ]
 
 if __name__ == "__main__":
-    # initialising ball position
-
     x, y = nodes[0]
     ball = Ball([x, y])
-
-    # initialising graphics
-
     model = Graphics(ball, nodes, holes)
-
-    # initialising simulation
 
     animate_model(model)
